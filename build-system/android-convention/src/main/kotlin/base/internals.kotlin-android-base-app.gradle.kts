@@ -7,7 +7,6 @@ plugins {
     id("convention.sonarqube-android")
 }
 
-@Suppress("UnstableApiUsage")
 android {
     testBuildType = "debug"
 

@@ -210,10 +210,10 @@ class SearchFlowLayout @JvmOverloads constructor(
     }
 
     private inner class SearchFlowGestureListener : GestureDetector.SimpleOnGestureListener() {
-        override fun onDown(e: MotionEvent?): Boolean = true
+        override fun onDown(e: MotionEvent): Boolean = true
 
         override fun onFling(
-            e1: MotionEvent,
+            e1: MotionEvent?,
             e2: MotionEvent,
             velocityX: Float,
             velocityY: Float
@@ -240,7 +240,7 @@ class SearchFlowLayout @JvmOverloads constructor(
         }
 
         override fun onScroll(
-            e1: MotionEvent,
+            e1: MotionEvent?,
             e2: MotionEvent,
             distanceX: Float,
             distanceY: Float

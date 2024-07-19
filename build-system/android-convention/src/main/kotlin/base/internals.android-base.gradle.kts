@@ -1,7 +1,6 @@
 import com.android.build.gradle.BaseExtension
 import com.orcchg.stockshock.infra.plugins.utility.withVersionCatalogs
 import org.gradle.kotlin.dsl.configure
-import org.gradle.kotlin.dsl.dependencies
 
 plugins {
     id("org.gradle.android.cache-fix")
@@ -80,7 +79,6 @@ withVersionCatalogs {
             }
         }
 
-        @Suppress("UnstableApiUsage")
         with(buildFeatures) {
             aidl = false
             compose = false

@@ -4,7 +4,7 @@ import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.withType
 
 plugins {
-//    id("convention.detekt")
+// TODO   id("convention.detekt")
     id("convention.ktlint")
     id("convention.spotless")
     id("dependencies-alphabetical-order")
@@ -12,8 +12,8 @@ plugins {
 
 withVersionCatalogs {
     dependencies {
-        add("implementation", kotlin.reflect)
         add("implementation", kotlin.stdlib)
+        add("implementation", kotlin.reflect)
     }
 
     tasks.withType<KotlinCompile>().configureEach {

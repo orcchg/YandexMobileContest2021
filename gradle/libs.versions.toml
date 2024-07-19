@@ -1,6 +1,6 @@
 [versions]
 androidSdk-minSdkVersion = "26"
-androidSdk-compileSdkVersion = "31"
+androidSdk-compileSdkVersion = "34"
 androidSdk-targetSdkVersion = "34"
 
 javaVersion = "18"
@@ -34,7 +34,7 @@ version-androidx-work = "2.9.0"
 
 version-debugging-chucker = "3.5.2"
 version-debugging-detekt = "1.18.1"
-version-debugging-ktlint = "0.45.2"
+version-debugging-ktlint = "1.3.0"
 version-debugging-leakcanary = "2.7"
 version-debugging-lint = "31.5.1"
 version-debugging-spotless = "5.12.2"
@@ -45,8 +45,8 @@ version-di-annotation = "1.0"
 version-di-dagger = "2.51.1"
 version-di-javaxinject = "1"
 
-version-kotlin-coroutines = "1.8.1" #"1.6.10"
-version-kotlin-stdlib = "2.0.0" #"1.6.20-RC"
+version-kotlin-coroutines = "1.8.1"
+version-kotlin-stdlib = "2.0.0"
 
 version-library-autodispose = "1.4.0"
 version-library-finnhub = "1.2.0"
